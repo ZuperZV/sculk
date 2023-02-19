@@ -11,19 +11,12 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "image",
-        "data": {
-          "image": "sculk_crusher_gui.png",
-          "use1Xscale": false,
-          "name": "sculk_crusher_gui.png",
-          "x": 125,
-          "y": 37
-        }
-      },
-      {
         "type": "button",
         "data": {
           "text": "Crus",
+          "onClick": {
+            "name": "SculkCrpr"
+          },
           "width": 46,
           "height": 20,
           "name": "Crus",
@@ -55,8 +48,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 185,
-          "y": 43
+          "x": 184,
+          "y": 42
         }
       },
       {
@@ -70,7 +63,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
           "x": 131,
-          "y": 101
+          "y": 100
         }
       },
       {
@@ -84,7 +77,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
           "x": 185,
-          "y": 101
+          "y": 100
         }
       },
       {
@@ -112,7 +105,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #5",
           "x": 275,
-          "y": 71
+          "y": 70
         }
       },
       {
@@ -123,7 +116,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #6",
           "x": 221,
-          "y": 71
+          "y": 70
         }
       }
     ],

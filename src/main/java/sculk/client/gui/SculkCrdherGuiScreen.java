@@ -3,6 +3,10 @@ package sculk.client.gui;
 
 import sculk.world.inventory.SculkCrdherGuiMenu;
 
+import sculk.network.SculkCrdherGuiButtonMessage;
+
+import sculk.SculkMod;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -50,10 +54,6 @@ public class SculkCrdherGuiScreen extends AbstractContainerScreen<SculkCrdherGui
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("sculk:textures/screens/sculk_crusher_gui.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -86,6 +86,10 @@ public class SculkCrdherGuiScreen extends AbstractContainerScreen<SculkCrdherGui
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 82, this.topPos + 60, 46, 20, Component.literal("Crus"), e -> {
+			if (true) {
+				SculkMod.PACKET_HANDLER.sendToServer(new SculkCrdherGuiButtonMessage(0, x, y, z));
+				SculkCrdherGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 	}
 }

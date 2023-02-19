@@ -77,17 +77,17 @@ public class SculkCrdherGuiMenu extends AbstractContainerMenu implements Supplie
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 6, 7) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 60, 7) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 59, 6) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 6, 65) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 6, 64) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 60, 65) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 60, 64) {
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 32, 35) {
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 150, 35) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 150, 34) {
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 96, 35) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 96, 34) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
