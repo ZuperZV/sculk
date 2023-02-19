@@ -37,6 +37,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "F",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f"
     }
   ],
   "variable_elements": [],
