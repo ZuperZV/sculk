@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Sculk",
+    "icon": {
+      "value": "CUSTOM:SculkArmor.body"
+    },
+    "showSearch": false
+  }
+}

@@ -1,9 +1,38 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SculkArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Sculk",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.sculk.sculk_armor_chestplate": "Sculk Body",
+      "item.sculk.sculk_armor_leggings": "Sculk Leggings",
+      "item.sculk.sculk_armor_boots": "Sculk  Boots",
+      "item.sculk.sculk_armor_helmet": "Sculk Helmet",
+      "itemGroup.tabsculk": "Sculk"
+    }
   },
   "foldersRoot": {
     "name": "~",

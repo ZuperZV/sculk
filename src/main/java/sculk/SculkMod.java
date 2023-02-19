@@ -13,6 +13,9 @@
  */
 package sculk;
 
+import sculk.init.SculkModTabs;
+import sculk.init.SculkModItems;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -43,8 +46,10 @@ public class SculkMod {
 
 	public SculkMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		SculkModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SculkModItems.REGISTRY.register(bus);
 
 	}
 
