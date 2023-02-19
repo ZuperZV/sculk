@@ -105,12 +105,61 @@
           }
         ]
       }
+    },
+    {
+      "name": "SculkCrusherOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crusher_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrusher",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crusher"
+    },
+    {
+      "name": "Warden",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.sculk.sculk_crusher": "Sculk Crusher",
       "item.sculk.sculk_armor_chestplate": "Sculk Body",
       "item.sculk.sculk_armor_leggings": "Sculk Leggings",
       "item.sculk.sculk_armor_boots": "Sculk  Boots",

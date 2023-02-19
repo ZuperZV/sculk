@@ -145,6 +145,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_crusher"
+    },
+    {
+      "name": "Warden",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden"
     }
   ],
   "variable_elements": [],

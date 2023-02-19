@@ -1,0 +1,31 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_hoe",
+    "customModelName": "Normal",
+    "name": "Sculk Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Sculk"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.SCULK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

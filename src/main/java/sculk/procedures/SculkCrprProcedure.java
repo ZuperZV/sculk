@@ -43,7 +43,7 @@ public class SculkCrprProcedure {
 										.getItem() == Blocks.SCULK.asItem()
 								|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
-										.getItem() == SculkModItems.SCULK_STONE.get())) {
+										.getItem() == SculkModItems.WARDEN_HEART.get())) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(0)).remove(1);
@@ -111,7 +111,7 @@ public class SculkCrprProcedure {
 										.getItem() == Blocks.SCULK_CATALYST.asItem()
 								|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
-										.getItem() == SculkModItems.SCULK_STONE.get())) {
+										.getItem() == SculkModItems.WARDEN_HEART.get())) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(0)).remove(1);
@@ -179,7 +179,7 @@ public class SculkCrprProcedure {
 										.getItem() == Blocks.SCULK_CATALYST.asItem()
 								|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
-										.getItem() == SculkModItems.SCULK_STONE.get())) {
+										.getItem() == SculkModItems.WARDEN_HEART.get())) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(0)).remove(1);
@@ -247,7 +247,7 @@ public class SculkCrprProcedure {
 										.getItem() == Blocks.SCULK_CATALYST.asItem()
 								|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
-										.getItem() == SculkModItems.SCULK_STONE.get())) {
+										.getItem() == SculkModItems.WARDEN_HEART.get())) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(0)).remove(1);
@@ -315,7 +315,7 @@ public class SculkCrprProcedure {
 										.getItem() == Blocks.SCULK_CATALYST.asItem()
 								|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
-										.getItem() == SculkModItems.SCULK_STONE.get())) {
+										.getItem() == SculkModItems.WARDEN_HEART.get())) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(0)).remove(1);

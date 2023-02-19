@@ -10,8 +10,20 @@
     "textureLeggings": "diamond_leggings",
     "enableBoots": true,
     "textureBoots": "diamond_boots",
+    "onHelmetTick": {
+      "name": "SculkArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "SculkArmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SculkArmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SculkArmorHelmetTickEvent"
+    },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Sculk"
     },
     "armorTextureFile": "diamond_",
     "helmetName": "Sculk Helmet",
@@ -48,10 +60,10 @@
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
     "enchantability": 9,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "toughness": 0.30000000000000004,
+    "knockbackResistance": 0.2,
     "equipSound": {
-      "value": ""
+      "value": "block.sculk_catalyst.break"
     },
     "repairItems": []
   }
