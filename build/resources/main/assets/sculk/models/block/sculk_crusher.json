@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sculk:blocks/ochre_froglight_top",
+    "up": "sculk:blocks/ochre_froglight_top",
+    "north": "sculk:blocks/ochre_froglight_si_f",
+    "east": "sculk:blocks/ochre_froglight_si",
+    "south": "sculk:blocks/ochre_froglight_si",
+    "west": "sculk:blocks/ochre_froglight_si_-_kopi",
+    "particle": "sculk:blocks/ochre_froglight_top"
+  },
+  "render_type": "solid"
+}

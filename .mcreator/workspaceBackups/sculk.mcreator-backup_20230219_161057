@@ -1,0 +1,129 @@
+{
+  "mod_elements": [
+    {
+      "name": "SculkArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Sculk",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk"
+    },
+    {
+      "name": "SculkArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrossbowProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crossbow_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrossbow",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crossbow"
+    },
+    {
+      "name": "SculkStone",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_stone"
+    },
+    {
+      "name": "SculkCrdherGui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crdher_gui"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sculk.sculk_armor_chestplate": "Sculk Body",
+      "item.sculk.sculk_armor_leggings": "Sculk Leggings",
+      "item.sculk.sculk_armor_boots": "Sculk  Boots",
+      "item.sculk.sculk_crossbow": "Sculk Crossbow",
+      "item.sculk.sculk_armor_helmet": "Sculk Helmet",
+      "item.sculk.sculk_stone": "Sculk Stone",
+      "itemGroup.tabsculk": "Sculk"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sculk",
+    "modName": "Sculk",
+    "version": "1.0.0",
+    "author": "Bruger, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "sculk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

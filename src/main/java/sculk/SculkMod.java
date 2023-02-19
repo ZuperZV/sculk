@@ -14,8 +14,10 @@
 package sculk;
 
 import sculk.init.SculkModTabs;
+import sculk.init.SculkModMenus;
 import sculk.init.SculkModItems;
 import sculk.init.SculkModEntities;
+import sculk.init.SculkModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -50,8 +52,11 @@ public class SculkMod {
 		SculkModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		SculkModBlocks.REGISTRY.register(bus);
 		SculkModItems.REGISTRY.register(bus);
 		SculkModEntities.REGISTRY.register(bus);
+
+		SculkModMenus.REGISTRY.register(bus);
 
 	}
 
