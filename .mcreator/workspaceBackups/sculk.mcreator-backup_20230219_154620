@@ -39,48 +39,12 @@
       }
     },
     {
-      "name": "SculkCrossbowProjectileHitsBlock",
-      "type": "procedure",
+      "name": "F",
+      "type": "gui",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sculk_crossbow_projectile_hits_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SculkCrossbow",
-      "type": "rangeditem",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_crossbow"
-    },
-    {
-      "name": "SculkStone",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_stone"
+      "registry_name": "f"
     }
   ],
   "variable_elements": [],
@@ -90,9 +54,7 @@
       "item.sculk.sculk_armor_chestplate": "Sculk Body",
       "item.sculk.sculk_armor_leggings": "Sculk Leggings",
       "item.sculk.sculk_armor_boots": "Sculk  Boots",
-      "item.sculk.sculk_crossbow": "Sculk Crossbow",
       "item.sculk.sculk_armor_helmet": "Sculk Helmet",
-      "item.sculk.sculk_stone": "Sculk Stone",
       "itemGroup.tabsculk": "Sculk"
     }
   },
