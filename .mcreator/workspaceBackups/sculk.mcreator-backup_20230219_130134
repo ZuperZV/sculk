@@ -1,0 +1,75 @@
+{
+  "mod_elements": [
+    {
+      "name": "SculkArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Sculk",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk"
+    },
+    {
+      "name": "SculkArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sculk.sculk_armor_chestplate": "Sculk Body",
+      "item.sculk.sculk_armor_leggings": "Sculk Leggings",
+      "item.sculk.sculk_armor_boots": "Sculk  Boots",
+      "item.sculk.sculk_armor_helmet": "Sculk Helmet",
+      "itemGroup.tabsculk": "Sculk"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sculk",
+    "modName": "Sculk",
+    "version": "1.0.0",
+    "author": "Bruger, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "sculk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
