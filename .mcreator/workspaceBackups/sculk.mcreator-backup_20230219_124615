@@ -21,22 +21,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk"
-    },
-    {
-      "name": "SculkArmorHelmetTickEvent",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_armor_helmet_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
