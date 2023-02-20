@@ -80,7 +80,7 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sculk_stone"
+      "registry_name": "warden_heart"
     },
     {
       "name": "SculkCrdherGui",
@@ -145,6 +145,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_crusher"
+    },
+    {
+      "name": "Warden",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden"
+    },
+    {
+      "name": "Sculk_ToolPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_pickaxe"
+    },
+    {
+      "name": "Sculk_ToolAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_axe"
+    },
+    {
+      "name": "Sculk_ToolSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_sword"
+    },
+    {
+      "name": "Sculk_ToolShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_shovel"
+    },
+    {
+      "name": "Sculk_ToolHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_hoe"
     }
   ],
   "variable_elements": [],
@@ -152,13 +200,18 @@
   "language_map": {
     "en_us": {
       "block.sculk.sculk_crusher": "Sculk Crusher",
-      "item.sculk.sculk_armor_chestplate": "Sculk Body",
+      "item.sculk.sculk_tool_shovel": "Sculk Shovel",
       "item.sculk.sculk_armor_leggings": "Sculk Leggings",
+      "item.sculk.warden_heart": "Warden Heart",
       "item.sculk.sculk_armor_boots": "Sculk  Boots",
-      "item.sculk.sculk_crossbow": "Sculk Crossbow",
       "item.sculk.sculk_armor_helmet": "Sculk Helmet",
-      "item.sculk.sculk_stone": "Sculk Stone",
-      "itemGroup.tabsculk": "Sculk"
+      "item.sculk.sculk_tool_axe": "Sculk Axe",
+      "itemGroup.tabsculk": "Sculk",
+      "item.sculk.sculk_armor_chestplate": "Sculk Body",
+      "item.sculk.sculk_crossbow": "Sculk Crossbow",
+      "item.sculk.sculk_tool_sword": "Sculk Sword",
+      "item.sculk.sculk_tool_hoe": "Sculk Hoe",
+      "item.sculk.sculk_tool_pickaxe": "Sculk Pickaxe"
     }
   },
   "foldersRoot": {

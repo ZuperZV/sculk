@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "sculk:items/sculk_tool_shovel"
+    "layer0": "sculk:items/diamond_shovel"
   }
 }
