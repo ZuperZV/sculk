@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sculk:sculk_stone",
+          "name": "sculk:warden_heart",
           "weight": 0,
           "functions": [
             {
