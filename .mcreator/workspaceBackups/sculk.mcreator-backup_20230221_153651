@@ -193,46 +193,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_tool_hoe"
-    },
-    {
-      "name": "Sculk_ToolPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_tool_pickaxe_recipe"
-    },
-    {
-      "name": "Sculk_ToolAxeRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_tool_axe_recipe"
-    },
-    {
-      "name": "Sculk_ToolSwordRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_tool_sword_recipe"
-    },
-    {
-      "name": "Sculk_ToolShovelRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_tool_shovel_recipe"
-    },
-    {
-      "name": "Sculk_ToolHoeRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sculk_tool_hoe_recipe"
     }
   ],
   "variable_elements": [],
@@ -240,18 +200,18 @@
   "language_map": {
     "en_us": {
       "block.sculk.sculk_crusher": "Sculk Crusher",
-      "item.sculk.sculk_tool_shovel": "Sculk_Tool Shovel",
+      "item.sculk.sculk_tool_shovel": "Sculk Shovel",
       "item.sculk.sculk_armor_leggings": "Sculk Leggings",
       "item.sculk.warden_heart": "Warden Heart",
       "item.sculk.sculk_armor_boots": "Sculk  Boots",
       "item.sculk.sculk_armor_helmet": "Sculk Helmet",
+      "item.sculk.sculk_tool_axe": "Sculk Axe",
       "itemGroup.tabsculk": "Sculk",
-      "item.sculk.sculk_tool_axe": "Sculk_Tool Axe",
       "item.sculk.sculk_armor_chestplate": "Sculk Body",
       "item.sculk.sculk_crossbow": "Sculk Crossbow",
-      "item.sculk.sculk_tool_sword": "Sculk_Tool Sword",
-      "item.sculk.sculk_tool_hoe": "Sculk_Tool Hoe",
-      "item.sculk.sculk_tool_pickaxe": "Sculk_Tool Pickaxe"
+      "item.sculk.sculk_tool_sword": "Sculk Sword",
+      "item.sculk.sculk_tool_hoe": "Sculk Hoe",
+      "item.sculk.sculk_tool_pickaxe": "Sculk Pickaxe"
     }
   },
   "foldersRoot": {
