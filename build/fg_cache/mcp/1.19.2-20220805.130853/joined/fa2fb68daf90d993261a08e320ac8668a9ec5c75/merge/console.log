@@ -1,0 +1,6 @@
+JVM:         C:\Users\Bruger\.gradle\jdks\adoptium-17-x64-hotspot-windows\jdk-17.0.6+10\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\stripClient\output.jar", "--server", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\stripServer\output.jar", "--ann", "1.19.2", "--output", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\Bruger\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

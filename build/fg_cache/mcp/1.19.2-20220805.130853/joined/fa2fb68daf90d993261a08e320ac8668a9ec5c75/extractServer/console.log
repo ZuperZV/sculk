@@ -1,0 +1,13 @@
+JVM:         C:\Users\Bruger\.gradle\jdks\adoptium-17-x64-hotspot-windows\jdk-17.0.6+10\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "bundler_extract", "--input", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\downloadServer\server.jar", "--output", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\extractServer\output.jar", "--jar-only"
+Classpath:   C:\Users\Bruger\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.0\installertools-1.3.0-fatjar.jar
+Working Dir: A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\extractServer
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: BUNDLER_EXTRACT
+Input:   A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\downloadServer\server.jar
+Output:  A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\extractServer\output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.19.2/server-1.19.2.jar

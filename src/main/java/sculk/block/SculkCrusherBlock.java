@@ -85,7 +85,6 @@ public class SculkCrusherBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		SculkCrusherOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}

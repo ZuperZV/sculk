@@ -1,0 +1,9 @@
+JVM:         A:\Minecraft\mcreator Snap\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\AccessTransformer\output.jar", "--output", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\SideStripper\output.jar", "--data", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\SideStripper\string_data.sas"
+Classpath:   C:\Users\Bruger\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\AccessTransformer\output.jar
+Output: A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\SideStripper\output.jar
+Data:   A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\SideStripper\string_data.sas

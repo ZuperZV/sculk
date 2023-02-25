@@ -1,0 +1,16 @@
+JVM:         C:\Users\Bruger\.gradle\jdks\adoptium-17-x64-hotspot-windows\jdk-17.0.6+10\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\mergeMappings\output.jar"
+Classpath:   C:\Users\Bruger\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\mergeMappings\output.jar

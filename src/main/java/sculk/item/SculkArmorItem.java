@@ -54,7 +54,7 @@ public abstract class SculkArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0.3f;
+				return 0.30000000000000004f;
 			}
 
 			@Override

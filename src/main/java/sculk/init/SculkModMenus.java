@@ -17,6 +17,5 @@ import net.minecraft.world.inventory.MenuType;
 
 public class SculkModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, SculkMod.MODID);
-	public static final RegistryObject<MenuType<SculkCrdherGuiMenu>> SCULK_CRDHER_GUI = REGISTRY.register("sculk_crdher_gui",
-			() -> IForgeMenuType.create(SculkCrdherGuiMenu::new));
+	public static final RegistryObject<MenuType<SculkCrdherGuiMenu>> SCULK_CRDHER_GUI = REGISTRY.register("sculk_crdher_gui", () -> IForgeMenuType.create(SculkCrdherGuiMenu::new));
 }

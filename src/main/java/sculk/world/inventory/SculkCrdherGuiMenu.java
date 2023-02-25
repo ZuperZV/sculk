@@ -1,11 +1,16 @@
 
 package sculk.world.inventory;
 
+import sculk.procedures.Sc2Procedure;
+
 import sculk.init.SculkModMenus;
 
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -24,6 +29,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class SculkCrdherGuiMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -75,19 +81,19 @@ public class SculkCrdherGuiMenu extends AbstractContainerMenu implements Supplie
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 6, 7) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 10, 13) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 59, 6) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 54, 13) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 6, 64) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 10, 58) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 60, 64) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 54, 58) {
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 32, 35) {
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 150, 34) {
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 96, 34) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 99, 33) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -231,5 +237,17 @@ public class SculkCrdherGuiMenu extends AbstractContainerMenu implements Supplie
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof SculkCrdherGuiMenu) {
+			Level world = entity.level;
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			Sc2Procedure.execute(entity);
+		}
 	}
 }

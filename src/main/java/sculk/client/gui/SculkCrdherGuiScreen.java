@@ -1,11 +1,6 @@
-
 package sculk.client.gui;
 
 import sculk.world.inventory.SculkCrdherGuiMenu;
-
-import sculk.network.SculkCrdherGuiButtonMessage;
-
-import sculk.SculkMod;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -13,7 +8,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
@@ -73,6 +67,7 @@ public class SculkCrdherGuiScreen extends AbstractContainerScreen<SculkCrdherGui
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, Component.translatable("gui.sculk.sculk_crdher_gui.label_sculk_crdher"), 2, 3, -10066330);
 	}
 
 	@Override
@@ -85,11 +80,5 @@ public class SculkCrdherGuiScreen extends AbstractContainerScreen<SculkCrdherGui
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 82, this.topPos + 60, 46, 20, Component.literal("Crus"), e -> {
-			if (true) {
-				SculkMod.PACKET_HANDLER.sendToServer(new SculkCrdherGuiButtonMessage(0, x, y, z));
-				SculkCrdherGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}));
 	}
 }

@@ -22,7 +22,7 @@ public class Sculk_ToolSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 8f;
 			}
 
 			public int getLevel() {

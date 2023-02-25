@@ -1,0 +1,6 @@
+JVM:         A:\Minecraft\mcreator Snap\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\rename\output.jar", "--outJar", "A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\AccessTransformer\output.jar", "--atFile", "A:\Minecraft\mods\Sculk\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\Bruger\AppData\Local\Temp\FG_ats_2645788599631470239.cfg"
+Classpath:   C:\Users\Bruger\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: A:\Minecraft\mods\Sculk\build\fg_cache\mcp\1.19.2-20220805.130853\joined\fa2fb68daf90d993261a08e320ac8668a9ec5c75\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

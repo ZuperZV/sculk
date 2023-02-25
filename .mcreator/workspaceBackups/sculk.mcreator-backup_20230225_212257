@@ -1,0 +1,652 @@
+{
+  "mod_elements": [
+    {
+      "name": "SculkArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/sculk/models/item/sculk_armor_boots.json",
+          "src/main/resources/assets/sculk/models/item/sculk_armor_chestplate.json",
+          "src/main/resources/assets/sculk/models/item/sculk_armor_leggings.json",
+          "src/main/java/sculk/item/SculkArmorItem.java",
+          "src/main/resources/assets/sculk/models/item/sculk_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculk",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SculkArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/SculkArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrossbowProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crossbow_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/SculkCrossbowProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrossbow",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crossbow",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/entity/SculkCrossbowEntity.java",
+          "src/main/resources/assets/sculk/models/item/sculk_crossbow.json",
+          "src/main/java/sculk/item/SculkCrossbowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkStone",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/warden_heart.json",
+          "src/main/java/sculk/item/SculkStoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkCrdherGui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crdher_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/world/inventory/SculkCrdherGuiMenu.java",
+          "src/main/java/sculk/client/gui/SculkCrdherGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkCrpr",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crpr",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/SculkCrprProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrusherOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crusher_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/SculkCrusherOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkCrusher",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crusher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/sculk_crusher.json",
+          "src/main/java/sculk/block/SculkCrusherBlock.java",
+          "src/main/resources/assets/sculk/models/block/sculk_crusher.json",
+          "src/main/resources/assets/sculk/blockstates/sculk_crusher.json"
+        ]
+      }
+    },
+    {
+      "name": "Warden",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/warden.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculk_ToolPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/sculk_tool_pickaxe.json",
+          "src/main/java/sculk/item/Sculk_ToolPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sculk_ToolAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/sculk_tool_axe.json",
+          "src/main/java/sculk/item/Sculk_ToolAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sculk_ToolSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/Sculk_ToolSwordItem.java",
+          "src/main/resources/assets/sculk/models/item/sculk_tool_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculk_ToolShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/Sculk_ToolShovelItem.java",
+          "src/main/resources/assets/sculk/models/item/sculk_tool_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculk_ToolHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_tool_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/sculk_tool_hoe.json",
+          "src/main/java/sculk/item/Sculk_ToolHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Wardenheart",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wardenheart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/advancements/wardenheart.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculkcrusheradvancement",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkcrusheradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/advancements/sculkcrusheradvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Skar",
+      "type": "fluid",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/skar_bucket.json",
+          "src/main/resources/assets/sculk/blockstates/skar.json",
+          "src/main/java/sculk/fluid/types/SkarFluidType.java",
+          "src/main/java/sculk/fluid/SkarFluid.java",
+          "src/main/java/sculk/item/SkarItem.java",
+          "src/main/java/sculk/block/SkarBlock.java",
+          "src/main/resources/assets/sculk/models/block/skar.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculkkiller",
+      "type": "dimension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkkiller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/block/sculkkiller_portal_ew.json",
+          "src/main/resources/data/sculk/dimension_type/sculkkiller.json",
+          "src/main/java/sculk/block/SculkkillerPortalBlock.java",
+          "src/main/resources/assets/sculk/models/item/sculkkiller.json",
+          "src/main/java/sculk/world/teleporter/SculkkillerTeleporter.java",
+          "src/main/resources/assets/sculk/blockstates/sculkkiller_portal.json",
+          "src/main/java/sculk/world/dimension/SculkkillerDimension.java",
+          "src/main/java/sculk/item/SculkkillerItem.java",
+          "src/main/resources/data/sculk/dimension/sculkkiller.json",
+          "src/main/resources/assets/sculk/models/block/sculkkiller_portal_ns.json",
+          "src/main/java/sculk/world/teleporter/SculkkillerPortalShape.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkCrdherGuiWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_crdher_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/SculkCrdherGuiWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sc2",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_2",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/Sc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSculk",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_sculk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/netherite_sculk_chestplate.json",
+          "src/main/resources/assets/sculk/models/item/netherite_sculk_leggings.json",
+          "src/main/java/sculk/item/NetheriteSculkItem.java",
+          "src/main/resources/assets/sculk/models/item/netherite_sculk_helmet.json",
+          "src/main/resources/assets/sculk/models/item/netherite_sculk_boots.json"
+        ],
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "NetheriteSculkHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_sculk_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/procedures/NetheriteSculkHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkp",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/netheritesculkp.json",
+          "src/main/java/sculk/item/NetheritesculkpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculka",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculka",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/NetheritesculkaItem.java",
+          "src/main/resources/assets/sculk/models/item/netheritesculka.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheritesculkS",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculk_s",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/NetheritesculkSItem.java",
+          "src/main/resources/assets/sculk/models/item/netheritesculk_s.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculksh",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculksh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/netheritesculksh.json",
+          "src/main/java/sculk/item/NetheritesculkshItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkh",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/netheritesculkh.json",
+          "src/main/java/sculk/item/NetheritesculkhItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Se",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "se",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/advancements/se.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrec",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrec.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe3",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Nsr",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/nsr.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.sculkcrusheradvancement.title": "Crushe the sculk",
+      "item.sculk.sculk_tool_shovel": "Sculk Shovel",
+      "item.sculk.sculk_armor_leggings": "Sculk Leggings",
+      "item.sculk.warden_heart": "Warden Heart",
+      "item.sculk.sculk_armor_boots": "Sculk  Boots",
+      "item.sculk.skar_bucket": "Skar Bucket",
+      "gui.sculk.sculk_crdher_gui.button_crus": "Crus",
+      "item.sculk.netheritesculk_s": "Netherite Sculk Sword",
+      "advancements.sculkcrusheradvancement.descr": "get a Sculk crusher",
+      "item.sculk.sculk_armor_chestplate": "Sculk Chestplate",
+      "advancements.se.title": "the Sculk man",
+      "item.sculk.netheritesculka": "Netherite Sculk Axe",
+      "item.sculk.netherite_sculk_chestplate": "Netherite Sculk Body",
+      "item.sculk.sculk_tool_hoe": "Sculk Hoe",
+      "item.sculk.sculk_tool_pickaxe": "Sculk Pickaxe",
+      "advancements.se.descr": "get a Netherite Sculk Sword",
+      "block.sculk.sculk_crusher": "Sculk Crusher",
+      "item.sculk.netherite_sculk_boots": "Netherite Sculk  Boots",
+      "item.sculk.netheritesculkp": "Netherite Sculk Pickaxe",
+      "item.sculk.sculk_armor_helmet": "Sculk Helmet",
+      "fluid.sculk.skar": "Skar",
+      "item.sculk.netheritesculkh": "Netherite Sculk Hoe",
+      "item.sculk.sculk_tool_axe": "Sculk Axe",
+      "itemGroup.tabsculk": "Sculk",
+      "item.sculk.sculkkiller": "Scul killer Igniter",
+      "item.sculk.netherite_sculk_helmet": "Netherite Sculk Helmet",
+      "advancements.wardenheart.title": "Warden heart",
+      "item.sculk.netheritesculksh": "Netherite Sculk Shovel",
+      "item.sculk.sculk_crossbow": "Sculk Crossbow",
+      "item.sculk.sculk_tool_sword": "Sculk Sword",
+      "advancements.wardenheart.descr": "get a Warden heart",
+      "gui.sculk.sculk_crdher_gui.label_sculk_crdher": "Sculk Crdher",
+      "item.sculk.netherite_sculk_leggings": "Netherite Sculk Leggings",
+      "block.sculk.skar": "Skar"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sculk",
+    "modName": "Sculk",
+    "version": "1.0.0",
+    "author": "Bruger, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "sculk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300108712
+}

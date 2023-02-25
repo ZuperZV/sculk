@@ -24,8 +24,7 @@ import net.minecraft.world.entity.Entity;
 public class SculkModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, SculkMod.MODID);
 	public static final RegistryObject<EntityType<SculkCrossbowEntity>> SCULK_CROSSBOW = register("projectile_sculk_crossbow",
-			EntityType.Builder.<SculkCrossbowEntity>of(SculkCrossbowEntity::new, MobCategory.MISC).setCustomClientFactory(SculkCrossbowEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+			EntityType.Builder.<SculkCrossbowEntity>of(SculkCrossbowEntity::new, MobCategory.MISC).setCustomClientFactory(SculkCrossbowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

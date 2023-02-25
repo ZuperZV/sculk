@@ -16,6 +16,8 @@ package sculk;
 import sculk.init.SculkModTabs;
 import sculk.init.SculkModMenus;
 import sculk.init.SculkModItems;
+import sculk.init.SculkModFluids;
+import sculk.init.SculkModFluidTypes;
 import sculk.init.SculkModEntities;
 import sculk.init.SculkModBlocks;
 
@@ -56,17 +58,18 @@ public class SculkMod {
 		SculkModItems.REGISTRY.register(bus);
 		SculkModEntities.REGISTRY.register(bus);
 
+		SculkModFluids.REGISTRY.register(bus);
+		SculkModFluidTypes.REGISTRY.register(bus);
+
 		SculkModMenus.REGISTRY.register(bus);
 
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
-			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
+	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
-			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
+	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
