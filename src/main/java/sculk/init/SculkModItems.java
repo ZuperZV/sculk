@@ -4,6 +4,11 @@
  */
 package sculk.init;
 
+import sculk.item.UpgradItem;
+import sculk.item.Upgrad5Item;
+import sculk.item.Upgrad4Item;
+import sculk.item.Upgrad2Item;
+import sculk.item.Upgrad1Item;
 import sculk.item.SkarItem;
 import sculk.item.SculkkillerItem;
 import sculk.item.Sculk_ToolSwordItem;
@@ -20,6 +25,7 @@ import sculk.item.NetheritesculkhItem;
 import sculk.item.NetheritesculkaItem;
 import sculk.item.NetheritesculkSItem;
 import sculk.item.NetheriteSculkItem;
+import sculk.item.Diamond3Item;
 
 import sculk.SculkMod;
 
@@ -57,6 +63,12 @@ public class SculkModItems {
 	public static final RegistryObject<Item> NETHERITESCULK_S = REGISTRY.register("netheritesculk_s", () -> new NetheritesculkSItem());
 	public static final RegistryObject<Item> NETHERITESCULKSH = REGISTRY.register("netheritesculksh", () -> new NetheritesculkshItem());
 	public static final RegistryObject<Item> NETHERITESCULKH = REGISTRY.register("netheritesculkh", () -> new NetheritesculkhItem());
+	public static final RegistryObject<Item> UPGRAD = REGISTRY.register("upgrad", () -> new UpgradItem());
+	public static final RegistryObject<Item> UPGRAD_1 = REGISTRY.register("upgrad_1", () -> new Upgrad1Item());
+	public static final RegistryObject<Item> UPGRAD_2 = REGISTRY.register("upgrad_2", () -> new Upgrad2Item());
+	public static final RegistryObject<Item> DIAMOND_3 = REGISTRY.register("diamond_3", () -> new Diamond3Item());
+	public static final RegistryObject<Item> UPGRAD_4 = REGISTRY.register("upgrad_4", () -> new Upgrad4Item());
+	public static final RegistryObject<Item> UPGRAD_5 = REGISTRY.register("upgrad_5", () -> new Upgrad5Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

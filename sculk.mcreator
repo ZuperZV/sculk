@@ -623,14 +623,109 @@
           "src/main/resources/data/sculk/recipes/nsra_2.json"
         ]
       }
+    },
+    {
+      "name": "Upgrad",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrad",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/UpgradItem.java",
+          "src/main/resources/assets/sculk/models/item/upgrad.json"
+        ]
+      }
+    },
+    {
+      "name": "Upgrad1",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrad_1",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/Upgrad1Item.java",
+          "src/main/resources/assets/sculk/models/item/upgrad_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Upgrado",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrado",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Upgrad2",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrad_2",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/Upgrad2Item.java",
+          "src/main/resources/assets/sculk/models/item/upgrad_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamond3",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_3",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/Diamond3Item.java",
+          "src/main/resources/assets/sculk/models/item/diamond_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Upgrad4",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrad_4",
+      "metadata": {
+        "files": [
+          "src/main/java/sculk/item/Upgrad4Item.java",
+          "src/main/resources/assets/sculk/models/item/upgrad_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Upgrad5",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrad_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/upgrad_5.json",
+          "src/main/java/sculk/item/Upgrad5Item.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.sculkcrusheradvancement.title": "Crushe the sculk",
       "item.sculk.sculk_tool_shovel": "Sculk Shovel",
+      "advancements.sculkcrusheradvancement.title": "Crushe the sculk",
       "item.sculk.sculk_armor_leggings": "Sculk Leggings",
       "item.sculk.warden_heart": "Warden Heart",
       "item.sculk.sculk_armor_boots": "Sculk  Boots",
@@ -640,6 +735,7 @@
       "advancements.sculkcrusheradvancement.descr": "get a Sculk crusher",
       "item.sculk.sculk_armor_chestplate": "Sculk Chestplate",
       "advancements.se.title": "the Sculk man",
+      "item.sculk.upgrad": "Upgrad to Gold",
       "item.sculk.netheritesculka": "Netherite Sculk Axe",
       "item.sculk.netherite_sculk_chestplate": "Netherite Sculk Body",
       "item.sculk.sculk_tool_hoe": "Sculk Hoe",
@@ -647,22 +743,28 @@
       "advancements.se.descr": "get a Netherite Sculk Sword",
       "block.sculk.sculk_crusher": "Sculk Crusher",
       "item.sculk.netherite_sculk_boots": "Netherite Sculk  Boots",
+      "item.sculk.diamond_3": "Upgrad to Netherite",
       "item.sculk.netheritesculkp": "Netherite Sculk Pickaxe",
       "item.sculk.sculk_armor_helmet": "Sculk Helmet",
       "fluid.sculk.skar": "Skar",
       "item.sculk.netheritesculkh": "Netherite Sculk Hoe",
+      "itemGroup.tabupgrado": "Upgrad",
       "item.sculk.sculk_tool_axe": "Sculk Axe",
       "itemGroup.tabsculk": "Sculk",
       "item.sculk.sculkkiller": "Scul killer Igniter",
       "item.sculk.netherite_sculk_helmet": "Netherite Sculk Helmet",
       "advancements.wardenheart.title": "Warden heart",
       "item.sculk.netheritesculksh": "Netherite Sculk Shovel",
+      "item.sculk.upgrad_4": "Upgrad to Sculk",
       "item.sculk.sculk_crossbow": "Sculk Crossbow",
       "item.sculk.sculk_tool_sword": "Sculk Sword",
+      "item.sculk.upgrad_2": "Upgrad to diamond",
       "advancements.wardenheart.descr": "get a Warden heart",
+      "item.sculk.upgrad_1": "Upgrad to iron",
       "gui.sculk.sculk_crdher_gui.label_sculk_crdher": "Sculk Crdher",
       "item.sculk.netherite_sculk_leggings": "Netherite Sculk Leggings",
-      "block.sculk.skar": "Skar"
+      "block.sculk.skar": "Skar",
+      "item.sculk.upgrad_5": "Upgrad to Netherite sculk"
     }
   },
   "foldersRoot": {

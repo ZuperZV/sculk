@@ -465,36 +465,198 @@
           "src/main/resources/assets/sculk/models/item/netheritesculk_s.json"
         ]
       }
+    },
+    {
+      "name": "Netheritesculksh",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculksh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/netheritesculksh.json",
+          "src/main/java/sculk/item/NetheritesculkshItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkh",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sculk/models/item/netheritesculkh.json",
+          "src/main/java/sculk/item/NetheritesculkhItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Se",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "se",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/advancements/se.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrec",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrec.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritesculkrecipe3",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritesculkrecipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/netheritesculkrecipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Nsr",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/nsr.json"
+        ]
+      }
+    },
+    {
+      "name": "Nsra",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nsra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/nsra.json"
+        ]
+      }
+    },
+    {
+      "name": "Nsra1",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nsra_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/nsra_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Nsra2",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nsra_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sculk/recipes/nsra_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sculk.sculk_tool_shovel": "Sculk Shovel",
       "advancements.sculkcrusheradvancement.title": "Crushe the sculk",
+      "item.sculk.sculk_tool_shovel": "Sculk Shovel",
       "item.sculk.sculk_armor_leggings": "Sculk Leggings",
       "item.sculk.warden_heart": "Warden Heart",
       "item.sculk.sculk_armor_boots": "Sculk  Boots",
       "item.sculk.skar_bucket": "Skar Bucket",
       "gui.sculk.sculk_crdher_gui.button_crus": "Crus",
-      "item.sculk.netheritesculk_s": "Sculk Sword",
+      "item.sculk.netheritesculk_s": "Netherite Sculk Sword",
       "advancements.sculkcrusheradvancement.descr": "get a Sculk crusher",
-      "item.sculk.sculk_armor_chestplate": "Sculk Body",
-      "item.sculk.netheritesculka": "Sculk Axe",
+      "item.sculk.sculk_armor_chestplate": "Sculk Chestplate",
+      "advancements.se.title": "the Sculk man",
+      "item.sculk.netheritesculka": "Netherite Sculk Axe",
       "item.sculk.netherite_sculk_chestplate": "Netherite Sculk Body",
       "item.sculk.sculk_tool_hoe": "Sculk Hoe",
       "item.sculk.sculk_tool_pickaxe": "Sculk Pickaxe",
+      "advancements.se.descr": "get a Netherite Sculk Sword",
       "block.sculk.sculk_crusher": "Sculk Crusher",
       "item.sculk.netherite_sculk_boots": "Netherite Sculk  Boots",
-      "item.sculk.netheritesculkp": "Sculk Pickaxe",
+      "item.sculk.netheritesculkp": "Netherite Sculk Pickaxe",
       "item.sculk.sculk_armor_helmet": "Sculk Helmet",
       "fluid.sculk.skar": "Skar",
+      "item.sculk.netheritesculkh": "Netherite Sculk Hoe",
       "item.sculk.sculk_tool_axe": "Sculk Axe",
       "itemGroup.tabsculk": "Sculk",
       "item.sculk.sculkkiller": "Scul killer Igniter",
       "item.sculk.netherite_sculk_helmet": "Netherite Sculk Helmet",
       "advancements.wardenheart.title": "Warden heart",
+      "item.sculk.netheritesculksh": "Netherite Sculk Shovel",
       "item.sculk.sculk_crossbow": "Sculk Crossbow",
       "item.sculk.sculk_tool_sword": "Sculk Sword",
       "advancements.wardenheart.descr": "get a Warden heart",
